@@ -27,7 +27,7 @@ export default class ImageItem extends Component {
         let marker = selectedMarker ? selectedMarker :
             <Image
                 style={[styles.marker, {width: 25, height: 25}]}
-                source={require('./circle-check.png')}
+                source={require('./selected.png')}
             />
 
         let image = item.node.image
